@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <main>
+      <form id="form" onsubmit="return false">
+        <label for="num1"> Number of cells of width </label>
+        <input type="number" id="width" />
+        <label for="num2"> Number of cells of height </label>
+        <input type="number" id="height" />
+        <label for="num3"> Number of colors </label>
+        <input type="number" id="numColors" />
+
+        <button type="submit" id="generate">Generate</button>
+      </form>
+      <div id="result"></div>
+      <div id="app"></div>
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
